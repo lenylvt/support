@@ -42,6 +42,12 @@
 				justify-content: right;
 				overflow-x: scroll;
 				overflow-y: hidden;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+		.container::-webkit-scrollbar {
+        display: none;
     }
 
     a {
