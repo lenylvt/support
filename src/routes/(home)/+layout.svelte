@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Menu } from 'lucide-svelte';
 	let { children } = $props();
-	
+
 	const year = new Date().getFullYear();
 </script>
 
@@ -27,7 +27,7 @@
         background-color: var(--color-primary);
         display: flex;
         align-items: center;
-        width: 100vw;
+        width: 100%;
         border-bottom: .5px solid rgba(255, 255, 255, 0.30);
         position: fixed;
         z-index: 1000;
@@ -74,7 +74,7 @@
 
     footer {
         background-color: var(--color-background-tertiary);
-        width: 100vw;
+        width: 100%;
         height: 60px;
         margin-top: auto;
         display: flex;
