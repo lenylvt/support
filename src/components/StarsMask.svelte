@@ -18,6 +18,6 @@
     .stars {
         width: 100%;
         height: 100%;
-        mask: url("/StarsMask.png") luminance repeat;
+        mask: url("/StarsMask.png") repeat;
     }
 </style>
