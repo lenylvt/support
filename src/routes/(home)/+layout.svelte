@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Menu } from 'lucide-svelte';
 	let { children } = $props();
-
+	
 	const year = new Date().getFullYear();
 </script>
 

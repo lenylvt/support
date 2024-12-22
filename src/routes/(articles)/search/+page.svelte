@@ -1,17 +1,22 @@
 <script lang="ts">
 	import articles from '../../../docs/_maps_/articles';
-	import { page } from '$app/state';
 	import CollectionHeader from '../../../components/CollectionHeader.svelte';
 	import { Search } from 'lucide-svelte';
 	import ArticleCard from '../../../components/ArticleCard.svelte';
 	import Breadcrumb from '../../../components/Breadcrumb.svelte';
-	import { error } from '@sveltejs/kit';
+	import { onMount } from 'svelte';
 
-	if (!page.url.searchParams.has('q')) {
-		error(401, 'Missing query parameter');
+	let query = '';
+
+	// Détecter les paramètres uniquement si ce n'est pas du prérendu
+	if (typeof window !== 'undefined') {
+		const urlParams = new URLSearchParams(window.location.search);
+		query = urlParams.get('q') || '';
 	}
 
-	const query = page.url.searchParams.get('q');
+	onMount(() => {
+		document.title = `Résultat pour « ${query} » - Papillon Support`;
+	});
 
 	const articles_list = articles.filter((article) => {
 		if (article.title.toLowerCase().includes(query.toLowerCase()))

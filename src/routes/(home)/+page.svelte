@@ -2,7 +2,6 @@
 	import HomeHeader from '../../components/HomeHeader.svelte';
 	import CategoryCard from '../../components/CategoryCard.svelte';
 	import collections from '../../docs/_maps_/collections';
-
 </script>
 
 <svelte:head>
