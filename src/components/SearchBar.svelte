@@ -5,7 +5,7 @@ import { Search } from 'lucide-svelte';
 
 <form class="searchbar_container" action="/search" data-sveltekit-reload>
 	<Search size="20" color="#FFF"/>
-	<input type="search" name="q" placeholder="Qu’elle est ton problème ?">
+	<input type="search" name="q" placeholder="Quel est ton problème ?">
 </form>
 
 <style>
