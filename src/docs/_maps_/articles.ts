@@ -12,6 +12,18 @@ const articles = [
 		time_to_read: 5,
 		difficulty: 'Non spécifié',
 		stepped_guide_available: false,
+	},
+	{
+		id: 351101,
+		slug: 'login-pronote',
+		markdown: 'getting-started/login-pronote.md',
+		image: '/articles/cover/login-pronote.png',
+		imageAlt: 'Image montrant un téléphone sur l\'application mobile Pronote avec une flèche pointant vers un téléphone sur l\'application mobile Papillon',
+		title: 'Connexion à PRONOTE avec Papillon',
+		description: 'Tu trouveras ici comment réussir à te connecter au service PRONOTE sur Papillon.',
+		time_to_read: 10,
+		difficulty: 'Facile',
+		stepped_guide_available: false,
 	}
 ]
 
