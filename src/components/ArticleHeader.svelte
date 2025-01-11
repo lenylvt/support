@@ -43,6 +43,8 @@
         height: 200px;
 				display: flex;
 				justify-content: center;
+				background-size: cover;
+				background-position: center;
     }
 		.gradient {
 				position: absolute;
@@ -50,7 +52,7 @@
 				left: 0;
 				right: 0;
 				bottom: 0;
-				background: radial-gradient(101.07% 93.95% at 100.89% -1.59%, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+				background: radial-gradient(200% 100% at 200% 0%, rgba(255, 255, 255, 0.00) -50%, #FFF 100%);
     }
 		.container {
 				width: 100%;
