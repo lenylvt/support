@@ -45,18 +45,17 @@
         border-radius: 15px;
         border: 1px solid #D9D9D9;
         text-decoration: none;
-        transition: cubic-bezier(0.47, 0, 0.23, 1.38) .2s;
+        transition: cubic-bezier(0.47, 0, 0.23, 1.38) .3s;
     }
 
     .container img {
         width: 100%;
-        aspect-ratio: 16/8;
-        object-fit: cover;
+        aspect-ratio: 16/9;
         border-bottom: 1px solid #D9D9D9;
     }
 
     .content {
-        padding: 16px;
+        padding: 10px 16px 16px;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
