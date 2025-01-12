@@ -1,9 +1,5 @@
 <script lang="ts">
 	import collections from '../../../../docs/_maps_/collections';
-	import type { Plugin } from 'svelte-exmarkdown';
-	import Markdown, { Transparent } from 'svelte-exmarkdown';
-	import rehypeRaw from 'rehype-raw';
-	import remarkGfm from 'remark-gfm';
 	import markdownit from 'markdown-it'
 	import Breadcrumb from '../../../../components/Breadcrumb.svelte';
 	import ArticleHeader from '../../../../components/ArticleHeader.svelte';
@@ -75,6 +71,17 @@
 <svelte:head>
 	<title>{data.article.title} - Papillon Support</title>
 	<link href="/markdown.css" rel="stylesheet"/>
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://support.papillon.bzh/" />
+	<meta property="og:title" content="{data.article.title} - Papillon Support" />
+	<meta property="og:description" content="{data.article.description}" />
+	<meta property="og:image" content="{data.article.image}" />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="{data.article.title} - Papillon Support">
+	<meta name="twitter:site" content="@thepapillonapp">
+	<meta name="twitter:description" content="{data.article.description}">
+	<meta name="twitter:image" content="{data.article.image}">
+	<meta name="twitter:image:alt" content="{data.article.imageAlt}">
 </svelte:head>
 <Breadcrumb links={[{ name: 'Accueil', href: '/' }, { name: collection.name, href: `/collections/${collection.id}-${collection.slug}` }, { name: data.article.title, href: `/articles/${data.article.id}-${data.article.slug}` }]} />
 <ArticleHeader name={data.article.title} description={data.article.description} time_to_read={data.article.time_to_read} difficulty={data.article.difficulty} stepped_guide_available={data.article.stepped_guide_available} image={data.article.image} />
