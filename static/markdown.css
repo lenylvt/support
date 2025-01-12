@@ -1,0 +1,95 @@
+.markdown-section h2 {
+    font-size: 32px;
+    margin: 40px 0 0;
+}
+
+.markdown-section h3 {
+    color: #202020;
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.markdown-section p {
+    color: #505050;
+    margin: 0 0 16px;
+}
+
+.markdown-section a {
+    color: #0077CC;
+    text-decoration: none;
+}
+
+.markdown-section a:hover {
+    text-decoration: underline;
+}
+
+/*** Images ***/
+
+.markdown-section img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    margin: 5px 0;
+    margin-top: 16px;
+}
+
+/*** Lists ***/
+
+.markdown-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.markdown-section li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.markdown-section li a {
+    color: #000;
+    text-decoration: none;
+    transition: .1s;
+}
+
+.markdown-section li a:hover {
+    color: #0E7CCB;
+    text-decoration: none;
+}
+
+/*** Code ***/
+
+.markdown-section pre {
+    background-color: #292D3E;
+    overflow-x: scroll;
+    padding: 16px;
+    border-radius: 8px;
+    color: #BFC7D5;
+}
+
+/*** Blockquote ***/
+
+.markdown-section blockquote {
+    background-color: #F2F2F2;
+    overflow-x: scroll;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #505050;
+    width: 100%;
+    margin: 16px 0;
+}
+
+.markdown-section blockquote strong {
+    color: #000;
+}
+
+.markdown-section blockquote p {
+    margin: 0;
+}
+
+/*** Anchor ***/
+.anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
