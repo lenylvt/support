@@ -2,15 +2,15 @@
 
 Si ton établissement utilise PRONOTE, alors tu es au bon endroit. PRONOTE dispose de 4 méthodes de connexion :
 
-- **Localisation :** Papillon utilise ta localisation pour trouver les établissements proches de toi.
-- **Adresse :** Papillon te demandera la ville dans laquelle se situe ton établissement pour trouver ton établissement.
-- **QR code :** cette méthode requiert un ordinateur. Utilise la fonction QR code de PRONOTE pour te connecter sur Papillon.
-- **URL de connexion :** utilise l’URL de connexion de ton instance PRONOTE pour trouver ton établissement.
+- **[Localisation](#locate) :** Papillon utilise ta localisation pour trouver les établissements proches de toi.
+- **[Adresse](#address) :** Papillon te demandera la ville dans laquelle se situe ton établissement pour trouver ton établissement.
+- **[QR code](#qr) :** cette méthode requiert un ordinateur. Utilise la fonction QR code de PRONOTE pour te connecter sur Papillon.
+- **[URL de connexion](#url) :** utilise l’URL de connexion de ton instance PRONOTE pour trouver ton établissement.
 
-# 📍 Méthode n°1 : Localisation
+# <a name="locate" class="anchor"></a>📍 Méthode n°1 : Localisation
 
-> **🚨 Attention** <br>
-> Certains établissements refusent d’apparaître dans cette liste. Mais ne t’en fait pas, Papillon fonctionne pour toi. Utilise la méthode par QR code ou bien par URL de connexion.
+> **🚨 Attention**<br>
+> Certains établissements refusent d’apparaître dans cette liste. Mais ne t’en fait pas, Papillon fonctionne pour toi. Utilise la méthode par [QR code](#qr) ou bien par [URL de connexion](#url).
 
 ![iPhone affichant l'application Papillon sur l'AppStore](/articles/assets/351101/papillon_appstore.png)
 
@@ -43,10 +43,8 @@ Pour cette méthode, nous allons utiliser la localisation. Sélectionne « Util
 Tu as à présent la liste des établissements autour de toi. Plus qu’à trouver le tien et à cliquer dessus.
 
 > **🫥 Je ne trouve pas mon établissement…**<br>
-Certains établissements refusent d’apparaître dans cette liste. Tu peux tout de même te connecter avec la méthode du QR code ou bien par l’URL de connexion.
-
-Et si tu es quelqu’un de sympa, tu peux reporter le problème afin que nous ajoutions à la main ton établissement à la liste. Pour ce faire, c’est [ici](https://github.com/PapillonApp/support/issues/new/choose).
->
+> Certains établissements refusent d’apparaître dans cette liste. Tu peux tout de même te connecter avec la méthode du [QR code](#qr) ou bien par l’[URL de connexion](#url).<br><br>
+> Et si tu es quelqu’un de sympa, tu peux reporter le problème afin que nous ajoutions à la main ton établissement à la liste. Pour ce faire, c’est [ici](https://github.com/PapillonApp/support/issues/new/choose).
 
 ![iPhone sur l'application Papillon affichant un message afin de choisir entre la connexion par ENT et par identifiant](/articles/assets/351101/papillon_ent_alert_etab_list.png)
 
@@ -82,10 +80,10 @@ Sélectionne ta couleur favorite, et celle-ci apparaîtra dans tout Papillon ! C
 
 Bravo, tu as réussi à te connecter. Fais le tour et reste curieux. Si tu as besoin d’aide, n’hésite pas à regarder nos autres tutoriels sur le site. Et n’oublie pas : si tu rencontres des difficultés, nous sommes là pour t’aider. N'hésite pas à nous contacter vers notre e-mail : [support@papillon.bzh](mailto:support@papillon.bzh), que l’on discute afin de résoudre ton problème !
 
-# 🏠 Méthode n°2 : **Adresse**
+# <a name="address" class="anchor"></a>🏠 Méthode n°2 : **Adresse**
 
 > **🚨 Attention**<br>
-> Certains établissements refusent d’apparaître dans cette liste. Mais ne t’en fait pas, Papillon fonctionne pour toi. Utilise la méthode par QR code ou bien par URL de connexion.
+> Certains établissements refusent d’apparaître dans cette liste. Mais ne t’en fait pas, Papillon fonctionne pour toi. Utilise la méthode par [QR code](#qr) ou bien par [URL de connexion](#url).
 
 ![iPhone affichant l'application Papillon sur l'AppStore](/articles/assets/351101/papillon_appstore.png)
 
@@ -124,7 +122,7 @@ Une fois sur la page, cherche la ville de ton établissement. La liste des ville
 Tu as désormais la liste des établissements autour de toi. Plus qu’à trouver le tien et à cliquer dessus.
 
 > **🫥 Je ne trouve pas mon établissement…**<br>
-> Certains établissements refusent d’apparaître dans cette liste. Tu peux tout de même te connecter avec la méthode du QR code ou bien par l’URL de connexion.<br><br>
+> Certains établissements refusent d’apparaître dans cette liste. Tu peux tout de même te connecter avec la méthode du [QR code](#qr) ou bien par l’[URL de connexion](#url).<br><br>
 > Et si tu es quelqu’un de sympa, tu peux reporter le problème afin que nous ajoutions à la main ton établissement à la liste. Pour ce faire, c’est [ici](https://github.com/PapillonApp/support/issues/new/choose).
 
 ![iPhone sur l'application Papillon affichant un message afin de choisir entre la connexion par ENT et par identifiant](/articles/assets/351101/papillon_ent_alert_etab_list.png)
@@ -161,7 +159,7 @@ Sélectionne ta couleur favorite, et celle-ci apparaîtra dans tout Papillon ! C
 
 Bravo, tu as réussi à te connecter. Fais le tour et reste curieux. Si tu as besoin d’aide, n’hésite pas à regarder nos autres tutoriels sur le site. Et n’oublie pas : si tu rencontres des difficultés, nous sommes là pour t’aider. N'hésite pas à nous contacter vers notre e-mail : [support@papillon.bzh](mailto:support@papillon.bzh), que l’on discute afin de résoudre ton problème !
 
-# 📸 Méthode n°3 : QR code
+# <a name="qr" class="anchor"></a>📸 Méthode n°3 : QR code
 
 > **🖥️ Ordinateur requis**<br>
 >Pour cette méthode, tu devras avoir un ordinateur ou un iPad avec toi. Si tu ne l’as pas avec toi maintenant, reviens quand tu en auras un à disposition.
@@ -244,7 +242,7 @@ Sélectionne ta couleur favorite, et celle-ci apparaîtra dans tout Papillon ! C
 
 Bravo, tu as réussi à te connecter. Fais le tour et reste curieux. Si tu as besoin d’aide, n’hésite pas à regarder nos autres tutoriels sur le site. Et n’oublie pas : si tu rencontres des difficultés, nous sommes là pour t’aider. N'hésite pas à nous contacter vers notre e-mail : [support@papillon.bzh](mailto:support@papillon.bzh), que l’on discute afin de résoudre ton problème !
 
-# 🔗 Méthode n°4 : L’URL de connexion
+# <a name="url" class="anchor"></a>🔗 Méthode n°4 : L’URL de connexion
 
 ![iPhone affichant l'application Papillon sur l'AppStore](/articles/assets/351101/papillon_appstore.png)
 
