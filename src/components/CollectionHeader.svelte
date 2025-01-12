@@ -23,10 +23,7 @@
 
 <style>
     header {
-        position: absolute;
-        top: 165px;
-        left: 0;
-        right: 0;
+				margin-top: 100px;
         display: flex;
         justify-content: center;
     }
@@ -42,10 +39,10 @@
     }
     .stars {
         position: absolute;
-        top: 0;
+        top: 170px;
         left: 0;
         right: 0;
-        bottom: 0;
+        height: 150px;
         z-index: 1;
     }
     .icon {
