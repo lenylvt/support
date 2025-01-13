@@ -29,6 +29,12 @@
 				if (level > 5)
 					token.tag = "h6";
 			}
+			for (let i = 0; i < (token.children == null ? 0:token.children.length); i++) {
+				if (token.children[i].type === "link_open" && token.children[i].attrs[0][1].startsWith("http")) {
+					token.children[i].attrs.push(["target", "_blank"]);
+					token.children[i].attrs.push(["rel", "noopener"]);
+				}
+			}
 		});
 		const tokens = state.tokens;
 

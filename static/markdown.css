@@ -44,7 +44,7 @@
     margin-bottom: 8px;
 }
 
-.markdown-section li a {
+.markdown-section li strong a {
     color: #000;
     text-decoration: none;
     transition: .1s;
@@ -78,12 +78,15 @@
     margin: 16px 0;
 }
 
-.markdown-section blockquote strong {
+.markdown-section blockquote h5 {
     color: #000;
+    font-size: 16px;
+    margin: 0 0 8px;
 }
 
 .markdown-section blockquote p {
     margin: 0;
+    line-height: 22px;
 }
 
 /*** Anchor ***/
