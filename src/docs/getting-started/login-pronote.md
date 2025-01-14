@@ -9,7 +9,7 @@ Si ton établissement utilise PRONOTE, alors tu es au bon endroit. PRONOTE dispo
 
 # <a name="locate" class="anchor"></a>📍 Méthode n°1 : Localisation
 
-> **🚨 Attention**<br>
+> #### 🚨 Attention
 > Certains établissements refusent d’apparaître dans cette liste. Mais ne t’en fait pas, Papillon fonctionne pour toi. Utilise la méthode par [QR code](#qr) ou bien par [URL de connexion](#url).
 
 ![iPhone affichant l'application Papillon sur l'AppStore](/articles/assets/351101/papillon_appstore.png)
@@ -42,7 +42,7 @@ Pour cette méthode, nous allons utiliser la localisation. Sélectionne « Util
 
 Tu as à présent la liste des établissements autour de toi. Plus qu’à trouver le tien et à cliquer dessus.
 
-> **🫥 Je ne trouve pas mon établissement…**<br>
+> #### 🫥 Je ne trouve pas mon établissement…
 > Certains établissements refusent d’apparaître dans cette liste. Tu peux tout de même te connecter avec la méthode du [QR code](#qr) ou bien par l’[URL de connexion](#url).<br><br>
 > Et si tu es quelqu’un de sympa, tu peux reporter le problème afin que nous ajoutions à la main ton établissement à la liste. Pour ce faire, c’est [ici](https://github.com/PapillonApp/support/issues/new/choose).
 
@@ -82,7 +82,7 @@ Bravo, tu as réussi à te connecter. Fais le tour et reste curieux. Si tu as be
 
 # <a name="address" class="anchor"></a>🏠 Méthode n°2 : **Adresse**
 
-> **🚨 Attention**<br>
+> #### 🚨 Attention
 > Certains établissements refusent d’apparaître dans cette liste. Mais ne t’en fait pas, Papillon fonctionne pour toi. Utilise la méthode par [QR code](#qr) ou bien par [URL de connexion](#url).
 
 ![iPhone affichant l'application Papillon sur l'AppStore](/articles/assets/351101/papillon_appstore.png)
@@ -121,7 +121,7 @@ Une fois sur la page, cherche la ville de ton établissement. La liste des ville
 
 Tu as désormais la liste des établissements autour de toi. Plus qu’à trouver le tien et à cliquer dessus.
 
-> **🫥 Je ne trouve pas mon établissement…**<br>
+> #### 🫥 Je ne trouve pas mon établissement…
 > Certains établissements refusent d’apparaître dans cette liste. Tu peux tout de même te connecter avec la méthode du [QR code](#qr) ou bien par l’[URL de connexion](#url).<br><br>
 > Et si tu es quelqu’un de sympa, tu peux reporter le problème afin que nous ajoutions à la main ton établissement à la liste. Pour ce faire, c’est [ici](https://github.com/PapillonApp/support/issues/new/choose).
 

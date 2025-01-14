@@ -9,6 +9,12 @@
     margin: 5px 0;
 }
 
+.markdown-section h4 {
+    color: #202020;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
 .markdown-section p {
     color: #505050;
     margin: 0 0 16px;
