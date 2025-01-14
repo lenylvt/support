@@ -13,7 +13,7 @@ const collections = [
 		slug: 'security-and-privacy',
 		icon: Lock,
 		name: 'Sécurité et vie privée',
-		articlesId: [352401]
+		articlesId: [352401, 352402]
 	},
 	{
 		id: 3131,
