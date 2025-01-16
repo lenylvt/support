@@ -6,7 +6,7 @@ const collections = [
 		slug: 'getting-started',
 		icon: Rocket,
 		name: 'Démarrer avec Papillon',
-		articlesId: [351101]
+		articlesId: [351101, 351104]
 	},
 	{
 		id: 3524,

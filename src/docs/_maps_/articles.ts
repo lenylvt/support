@@ -36,6 +36,18 @@ const articles = [
 		time_to_read: 10,
 		difficulty: 'Facile',
 		stepped_guide_available: false,
+	},
+	{
+		id: 351104,
+		slug: 'frequency-asked-questions',
+		markdown: 'getting-started/frequency-asked-questions.md',
+		image: '/articles/cover/frequency-asked-questions.png',
+		imageAlt: 'Image montrant un point d\'interrogation à côté de 2 téléphones sur l\'application mobile Papillon',
+		title: 'Questions fréquemment posées',
+		description: 'Certaines questions reviennent fréquemment. C\'est pourquoi nous avons pris le temps d\'y répondre.',
+		time_to_read: 5,
+		difficulty: 'Facile',
+		stepped_guide_available: false,
 	}
 ]
 
