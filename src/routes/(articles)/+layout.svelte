@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { Menu } from 'lucide-svelte';
 	import SearchBar from '../../components/SearchBar.svelte';
-
+	import { onMount } from 'svelte';
+	let openMenu = $state(false);
 	let { children } = $props();
 
 	const year = new Date().getFullYear();
@@ -12,9 +13,16 @@
 		<a href="/">
 			<img src="/logo.svg" alt="Papillon Support">
 		</a>
-		<button>
+		<button onclick={() => openMenu = !openMenu}>
 			<Menu size="20" color="#FFF" />
 		</button>
+		<div class="menu" class:hidden={!openMenu}>
+			<a href="https://papillon.bzh">Retourner sur Papillon</a>
+			<a href="https://github.com/PapillonApp">Papillon sur Github</a>
+			<hr>
+			<a href="https://docs.papillon.bzh">Documentation développeur</a>
+			<a href="https://github.com/PapillonApp/support">Contribuer à la documentation</a>
+		</div>
 	</nav>
 	<div>
 		<SearchBar />
@@ -47,6 +55,7 @@
         justify-content: space-between;
         width: 100%;
         max-width: var(--sizing-max-width);
+				position: relative;
     }
 
     nav > button {
@@ -78,6 +87,51 @@
 				max-width: 800px;
 				width: 100%;
 		}
+
+    nav > .menu {
+        position: absolute;
+        background-color: #FFF;
+        border: 1px solid #D9D9D9;
+        border-radius: 10px;
+        width: 250px;
+        right: 16px;
+        top: 65px;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        transition: cubic-bezier(0.47, 0, 0.23, 1.38) .3s;
+    }
+
+    nav > .menu a {
+        padding: 10px 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        color: #707070;
+        transition: cubic-bezier(0.47, 0, 0.23, 1.38) .3s;
+    }
+
+    nav > .menu hr {
+        border: none;
+        border-bottom: 1px solid #202020;
+        opacity: 0.1;
+        margin: 10px 0;
+    }
+
+    .hidden {
+        opacity: 0;
+        transform: scale(0.95) translateY(-10px);
+        pointer-events: none;
+    }
+
+    @media not all and (hover: none) {
+        nav > .menu a:hover {
+            padding: 10px 10px;
+            background-color: #0E7CCB40;
+            color: #0E7CCB;
+        }
+    }
 
     main {
         margin-top: 60px;
