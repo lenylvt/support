@@ -69,6 +69,30 @@
     padding: 16px;
     border-radius: 8px;
     color: #BFC7D5;
+    position: relative;
+}
+
+.markdown-section pre > .copy {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #FFF2;
+    border: 1px solid #FFF2;
+    padding: 5px 10px;
+    border-radius: 100px;
+    color: #FFFFFF7F;
+    transition: cubic-bezier(0.47, 0, 0.23, 1.38) .3s;
+}
+
+.markdown-section pre > .copy:hover {
+    background-color: #FFF3;
+    color: #FFFFFF;
+    scale: 1.1;
+}
+
+.markdown-section pre > .copy:active {
+    opacity: .2;
+    scale: 1;
 }
 
 /*** Blockquote ***/
@@ -101,4 +125,29 @@
     position: relative;
     top: -150px;
     visibility: hidden;
+}
+
+/*** Code Syntax ***/
+.hljs-comment {
+    color: #ABB2BF7F;
+}
+
+.hljs-keyword {
+    color: #FFCB6B;
+}
+
+.hljs-title, .hljs-property{
+    color: #F580FF;
+}
+
+.hljs-params {
+    color: #82AAFF;
+}
+
+.hljs-number {
+    color: #75A1FF;
+}
+
+.hljs-string {
+    color: #62DE84;
 }
