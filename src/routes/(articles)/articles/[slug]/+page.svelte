@@ -1,10 +1,14 @@
 <script lang="ts">
 	import collections from '../../../../docs/_maps_/collections';
 	import markdownit from 'markdown-it'
+	import hljs from 'highlight.js/lib/core';
 	import Breadcrumb from '../../../../components/Breadcrumb.svelte';
 	import ArticleHeader from '../../../../components/ArticleHeader.svelte';
 	import { onMount } from 'svelte';
 	import { ChevronUp } from 'lucide-svelte';
+
+	import javascript from 'highlight.js/lib/languages/javascript';
+	hljs.registerLanguage('javascript', javascript);
 
 	export let data;
 	let show_scroll_top_button = false;
@@ -13,8 +17,20 @@
 
 	let md = data.content;
 	const markdownIt = markdownit({
-		html: true
-	})
+		html: true,
+		highlight: function (str, lang) {
+			if (lang && hljs.getLanguage(lang)) {
+				try {
+					return '<pre><code class="hljs">' +
+						hljs.highlight(str, { language: lang, ignoreIllegals: false }).value +
+						'</code><button class=\'copy\' onclick="navigator.clipboard.writeText(str);">Copier</button></pre>';
+				} catch (e) {
+					console.log(e)
+				}
+			}
+			return str + "<button class='copy'>Copier</button>";
+		}
+	});
 	markdownIt.core.ruler.push('component', (state) => {
 		state.tokens.forEach((token) => {
 			if (token.type === "heading_open") {
