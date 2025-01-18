@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { Menu } from 'lucide-svelte';
 	import SearchBar from '../../components/SearchBar.svelte';
-	import { onMount } from 'svelte';
 	let openMenu = $state(false);
 	let { children } = $props();
 
