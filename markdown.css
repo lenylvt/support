@@ -18,11 +18,17 @@
 .markdown-section p {
     color: #505050;
     margin: 0 0 16px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    hyphens: auto;
 }
 
 .markdown-section a {
     color: #0077CC;
     text-decoration: none;
+
 }
 
 .markdown-section a:hover {
@@ -151,3 +157,5 @@
 .hljs-string {
     color: #62DE84;
 }
+
+/*** Link ***/
