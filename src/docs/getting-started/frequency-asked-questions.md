@@ -46,7 +46,7 @@ Lorsque tu cherches à localiser ton établissement, il est possible que celui-c
 
 ## Solution
 
-Pour te connecter, tu peux utiliser la méthode du QR code ou bien celle de l’URL de ton établissement. Tu pourras en apprendre plus sur [ce tutoriel](https://staggingsupport.godetremy.com/articles/351101-login-pronote).
+Pour te connecter, tu peux utiliser la méthode du QR code ou bien celle de l’URL de ton établissement. Tu pourras en apprendre plus sur [ce tutoriel](/articles/351101-login-pronote).
 
 Et si tu es vraiment quelqu’un de cool, tu peux faire une demande d’établissement manquant à cette adresse : https://github.com/PapillonApp/datasets/issues/new/choose.
 
