@@ -86,6 +86,6 @@ Si tu as des questions, rencontres des bugs ou fais face à un problème que tu 
 - 🐦 **X (Twitter)** : [@thepapillonapp](https://twitter.com/thepapillonapp)
 - 📸 **Instagram** : [@thepapillonapp](https://instagram.com/thepapillonapp)
 - 🎵 **TikTok** : [@thepapillonapp](http://tiktok.com/@thepapillonapp)
-- 🏢 **LinkedIn** : https://www.linkedin.com/company/getpapillonapp
+- 🏢 **LinkedIn** : [@getpapillonapp](https://www.linkedin.com/company/getpapillonapp)
 
 Ou tu peux également nous envoyer un e-mail à [support@papillon.bzh](mailto:support@papillon.bzh), et nous te répondrons dans les meilleurs délais !
