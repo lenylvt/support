@@ -33,7 +33,7 @@ Vos identifiants ne sont pas conservés par l'application ni transmis à Papillo
 
 Quand on dit que l’application est open source, cela signifie que n'importe qui peut consulter et vérifier le code Papillon librement. Cela assure la sécurité de vos données, car il est possible pour tous d'examiner le code exécuté sur votre téléphone.
 
-Vous pouvez consulter le code librement sur le repo GitHub de l’application Papillon à l’adresse https://github.com/PapillonApp/Papillon.
+Vous pouvez consulter le code librement sur le repo GitHub de l’application Papillon à l’adresse : [https://github.com/PapillonApp/Papillon](https://github.com/PapillonApp/Papillon).
 
 # <a name="etab-not-found" class="anchor"></a>🏫 Pourquoi mon lycée n’est pas listé ? (Pronote)
 
@@ -48,7 +48,7 @@ Lorsque tu cherches à localiser ton établissement, il est possible que celui-c
 
 Pour te connecter, tu peux utiliser la méthode du QR code ou bien celle de l’URL de ton établissement. Tu pourras en apprendre plus sur [ce tutoriel](/articles/351101-login-pronote).
 
-Et si tu es vraiment quelqu’un de cool, tu peux faire une demande d’établissement manquant à cette adresse : https://github.com/PapillonApp/datasets/issues/new/choose.
+Et si tu es vraiment quelqu’un de cool, tu peux faire une demande d’établissement [juste ici.](https://github.com/PapillonApp/datasets/issues/new/choose).
 
 # <a name="parent" class="anchor"></a>‍🧑‍🧒 Pourquoi je ne parviens pas à me connecter en tant que parent ?
 
