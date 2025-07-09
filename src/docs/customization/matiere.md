@@ -51,3 +51,5 @@ Une fois la matière choisie, vous pouvez :
 - **Ajouter un emoji**
 - **Changer son nom**
 - **Modifier sa couleur**
+
+Les modifications apportées à vos matières seront automatiquement reflétées dans toute l'application (Emploi du temps, Notes, Devoirs,...)

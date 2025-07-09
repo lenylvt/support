@@ -66,10 +66,14 @@ Pour cela, cliquez et maintenez appuyé sur les trois traits à côté du rond, 
 
 ## 2 - Affichage des onglets
 
-<img src="/articles/assets/313104/25.png" alt="Option d'affichage des onglets" style="border-radius: 42px; max-width: 100%; height: auto;">
+<img src="/articles/assets/313104/25.png" alt="Affichage des titres des onglets" style="border-radius: 42px; max-width: 100%; height: auto;">
 
 ### Afficher les titres des onglets
 
-<img src="/articles/assets/313104/26.png" alt="Option d'affichage des onglets" style="border-radius: 42px; max-width: 100%; height: auto;">
+Ajoutez des titres aux onglets pour une navigation plus claire.
+
+<img src="/articles/assets/313104/26.png" alt="Fond personnalisé pour les onglets" style="border-radius: 42px; max-width: 100%; height: auto;">
 
 ### Afficher un fond aux onglets
+
+Ajoutez un fond aux onglets pour un style distinctif.
