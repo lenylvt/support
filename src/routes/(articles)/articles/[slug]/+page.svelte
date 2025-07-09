@@ -10,12 +10,11 @@
 	import javascript from 'highlight.js/lib/languages/javascript';
 	hljs.registerLanguage('javascript', javascript);
 
-	export let data;
-	let show_scroll_top_button = false;
+	let { data } = $props();
+	let show_scroll_top_button = $state(false);
 
 	const collection = collections.find((collection) => collection.articlesId.includes(data.article.id));
 
-	let md = data.content;
 	const markdownIt = markdownit({
 		html: true,
 		highlight: function (str, lang) {
@@ -72,7 +71,9 @@
 			}
 		}
 	})
-	const md_html = markdownIt.render(md);
+	
+	// Utilise $derived pour que le contenu se mette à jour automatiquement
+	let md_html = $derived(markdownIt.render(data.content));
 
 	onMount(() => {
 		document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -110,41 +111,60 @@
 <section class="container markdown-section">
 	{@html md_html}
 </section>
-<button class="scroll_top_button" class:hide={!show_scroll_top_button} on:click={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+<button class="scroll_top_button" class:hide={!show_scroll_top_button} onclick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
 	<ChevronUp size={25} style="translate: 0 -0.5px"/>
 </button>
 
 <style>
 	.container {
-			margin-top: 265px;
-			padding: 16px;
-			box-sizing: border-box;
+		margin-top: 265px;
+		padding: 16px;
+		box-sizing: border-box;
+		max-width: 100%;
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+		word-break: normal;
+		hyphens: auto;
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto;
+		-ms-hyphens: auto;
 	}
+	
+	.markdown-section {
+		line-height: 1.6;
+		text-rendering: optimizeLegibility;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	
 	.scroll_top_button {
-			position: fixed;
-			bottom: 16px;
-			right: 16px;
-			background-color: #FFF;
-			border: 1px solid #D9D9D9;
-			border-radius: 32px;
-			width: 50px;
-			height: 50px;
-			cursor: pointer;
-			padding: 0;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			transition: cubic-bezier(0.47, 0, 0.23, 1.38) .3s;
+		position: fixed;
+		bottom: 16px;
+		right: 16px;
+		background-color: var(--color-background-primary);
+		border: 1px solid var(--color-border);
+		border-radius: 32px;
+		width: 50px;
+		height: 50px;
+		cursor: pointer;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: cubic-bezier(0.47, 0, 0.23, 1.38) .3s;
+		color: var(--color-text-primary);
 	}
-  @media (hover: hover), (-ms-high-contrast: none) {
-      .scroll_top_button:hover {
-					background-color: #F2F2F2;
-      }
-  }
+	
+	@media (hover: hover), (-ms-high-contrast: none) {
+		.scroll_top_button:hover {
+			background-color: var(--color-background-tertiary);
+		}
+	}
+	
 	.hide {
-      opacity: 0;
-			translate: 0 20px;
-			scale: 0.5;
-      pointer-events: none;
-  }
+		opacity: 0;
+		translate: 0 20px;
+		scale: 0.5;
+		pointer-events: none;
+	}
 </style>

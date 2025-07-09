@@ -9,7 +9,7 @@
 	{#each links as link, i}
 		<a href={link.href} style="opacity: {i !== links.length - 1 ? 0.3 : 0.6}; margin-right: {i !== links.length - 1 ? 0 : 'auto'};">{link.name}</a>
 		{#if i !== links.length - 1}
-			<ChevronRight size="14" color="#B2B2B2" style="min-width: 14px"/>
+			<ChevronRight size="14" color="var(--color-text-secondary)" style="min-width: 14px"/>
 		{/if}
 	{/each}
 	</div>
@@ -21,12 +21,12 @@
         top: 120px;
         left: 0;
         right: 0;
-        background-color: #FFF;
+        background-color: var(--color-background-primary);
         display: flex;
         justify-content: center;
         padding: 0;
         z-index: 10;
-        border-bottom: 0.5px solid rgba(0, 0, 0, 0.10);
+        border-bottom: 0.5px solid var(--color-border);
 				height: 45px;
     }
 
@@ -51,7 +51,7 @@
     }
 
     a {
-        color: #000;
+        color: var(--color-text-primary);
         font-size: 14px;
         text-decoration: none;
 				white-space: nowrap;

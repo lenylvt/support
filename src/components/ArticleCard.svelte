@@ -20,16 +20,16 @@
 		<p>{description}</p>
 		<div class="meta">
 			<div>
-				<Clock size="14" color="#707070" />
+				<Clock size="14" color="var(--color-text-secondary)" />
 				<p>{time_to_read}min</p>
 			</div>
 			<div>
-				<ChartNoAxesColumnIncreasing size="14" color="#707070" />
+				<ChartNoAxesColumnIncreasing size="14" color="var(--color-text-secondary)" />
 				<p>{difficulty}</p>
 			</div>
 			{#if stepped_guide_available}
 				<div>
-					<Footprints size="14" color="#707070" />
+					<Footprints size="14" color="var(--color-text-secondary)" />
 					<p>Disponible en pas à pas</p>
 				</div>
 			{/if}
@@ -40,10 +40,10 @@
 <style>
     .container {
         overflow: hidden;
-        background-color: #FFF;
+        background-color: var(--color-background-primary);
         height: 100%;
         border-radius: 15px;
-        border: 1px solid #D9D9D9;
+        border: 1px solid var(--color-border);
         text-decoration: none;
         transition: cubic-bezier(0.47, 0, 0.23, 1.38) .3s;
     }
@@ -51,7 +51,7 @@
     .container img {
         width: 100%;
         aspect-ratio: 16/9;
-        border-bottom: 1px solid #D9D9D9;
+        border-bottom: 1px solid var(--color-border);
     }
 
     .content {
@@ -68,7 +68,7 @@
         -webkit-line-clamp: 2;
         align-self: stretch;
         margin: 0;
-        color: #000;
+        color: var(--color-text-primary);
         text-overflow: ellipsis;
         font-size: 17px;
         font-style: normal;
@@ -82,7 +82,7 @@
         -webkit-line-clamp: 2;
         align-self: stretch;
         overflow: hidden;
-        color: #707070;
+        color: var(--color-text-secondary);
         font-size: 14px;
         font-style: normal;
         font-weight: 400;

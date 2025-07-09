@@ -17,16 +17,16 @@
 		<p>{description}</p>
 		<div class="meta">
 			<div>
-				<Clock size="14" color="#707070" />
+				<Clock size="14" color="var(--color-text-secondary)" />
 				<p>{time_to_read}min</p>
 			</div>
 			<div>
-				<ChartNoAxesColumnIncreasing size="14" color="#707070" />
+				<ChartNoAxesColumnIncreasing size="14" color="var(--color-text-secondary)" />
 				<p>{difficulty}</p>
 			</div>
 			{#if stepped_guide_available}
 				<div>
-					<Footprints size="14" color="#707070" />
+					<Footprints size="14" color="var(--color-text-secondary)" />
 					<p>Disponible en pas à pas</p>
 				</div>
 			{/if}
@@ -52,7 +52,7 @@
 				left: 0;
 				right: 0;
 				bottom: 0;
-				background: radial-gradient(200% 100% at 200% 0%, rgba(255, 255, 255, 0.00) -50%, #FFF 100%);
+				background: radial-gradient(200% 100% at 200% 0%, rgba(255, 255, 255, 0.00) -50%, var(--color-background-primary) 100%);
     }
 		.container {
 				width: 100%;
@@ -68,11 +68,12 @@
 				font-size: 32px;
 				font-weight: 700;
         margin: 0;
+        color: var(--color-text-primary);
 		}
 		p {
 				font-size: 16px;
 				font-weight: 400;
-				color: #707070;
+				color: var(--color-text-secondary);
 				margin: 0;
 		}
     .meta {

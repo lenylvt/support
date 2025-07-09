@@ -77,8 +77,8 @@
 
 		nav > .menu {
 				position: absolute;
-				background-color: #FFF;
-				border: 1px solid #D9D9D9;
+				background-color: var(--color-background-primary);
+				border: 1px solid var(--color-border);
 				border-radius: 10px;
 				width: 250px;
 				right: 16px;
@@ -95,14 +95,14 @@
 				padding: 10px 5px;
 				border-radius: 5px;
 				text-decoration: none;
-				color: #707070;
+				color: var(--color-text-secondary);
         transition: cubic-bezier(0.47, 0, 0.23, 1.38) .3s;
     }
 
 		nav > .menu hr {
 				border: none;
-				border-bottom: 1px solid #202020;
-				opacity: 0.1;
+				border-bottom: 1px solid var(--color-text-secondary);
+				opacity: 0.3;
 				margin: 10px 0;
     }
 
@@ -115,8 +115,9 @@
 		@media not all and (hover: none) {
         nav > .menu a:hover {
             padding: 10px 10px;
-            background-color: #0E7CCB40;
-						color: #0E7CCB;
+            background-color: var(--color-primary);
+            background-color: color-mix(in srgb, var(--color-primary) 25%, transparent);
+						color: var(--color-primary);
         }
     }
 
@@ -134,9 +135,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #707070;
+        color: var(--color-text-secondary);
         font-size: 12px;
-        border-top: .5px solid #CCC;
+        border-top: .5px solid var(--color-border);
         padding: 0 16px;
         box-sizing: border-box;
         text-align: center;

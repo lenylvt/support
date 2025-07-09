@@ -8,11 +8,11 @@
 
 <header>
 	<div class="stars">
-		<StarsMask linearGradient="linear-gradient(200deg, #FFFFFF08 0%, #FFFFFF00 100%)" color="#000"/>
+		<StarsMask linearGradient="linear-gradient(200deg, #FFFFFF08 0%, #FFFFFF00 100%)" color="var(--color-text-primary)" />
 	</div>
 	<div class="container">
 		<div class="icon">
-			<svelte:component this={icon} size="20" color="#000" />
+			<svelte:component this={icon} size="20" color="var(--color-text-primary)" />
 		</div>
 		<div class="content">
 			<h1>{name}</h1>
@@ -29,7 +29,7 @@
     }
     .container {
         display: flex;
-        color: #000;
+        color: var(--color-text-primary);
         flex-direction: column;
         gap: 25px;
         padding: 16px;
@@ -55,7 +55,7 @@
         box-sizing: border-box;
         background-color: var(--color-background-tertiary);
         border-radius: 8px;
-        border: 1px solid rgba(0, 0, 0, 0.10);
+        border: 1px solid var(--color-border);
     }
 
     .content {
@@ -75,6 +75,6 @@
 		p {
 				font-size: 17px;
 				margin: 0;
-				color: #707070;
+				color: var(--color-text-secondary);
 		}
 </style>

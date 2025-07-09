@@ -16,7 +16,7 @@
 		/>
 	</div>
 	<div class="icon">
-		<svelte:component this={icon} size="20" color="#000" />
+		<svelte:component this={icon} size="20" color="var(--color-text-primary)" />
 	</div>
 	<div class="content">
 		<h3>{name}</h3>
@@ -34,7 +34,7 @@
     }
 
     .category_card {
-        background-color: #FFF;
+        background-color: var(--color-background-primary);
         display: flex;
         padding: 16px;
         flex-direction: column;
@@ -42,7 +42,7 @@
         gap: 25px;
         align-self: stretch;
         border-radius: 15px;
-        border: 1px solid rgba(0, 0, 0, 0.15);
+        border: 1px solid var(--color-border);
         overflow: hidden;
         position: relative;
         transition: cubic-bezier(0.47, 0, 0.23, 1.38) .2s;
@@ -59,7 +59,7 @@
 				box-sizing: border-box;
 				background-color: var(--color-background-tertiary);
         border-radius: 8px;
-        border: 1px solid rgba(0, 0, 0, 0.10);
+        border: 1px solid var(--color-border);
     }
 
     .content {
@@ -77,7 +77,7 @@
         -webkit-line-clamp: 1;
         align-self: stretch;
         overflow: hidden;
-        color: #000;
+        color: var(--color-text-primary);
         text-overflow: ellipsis;
         font-size: 17px;
         font-style: normal;
@@ -91,7 +91,7 @@
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 1;
         overflow: hidden;
-        color: #707070;
+        color: var(--color-text-secondary);
         text-align: center;
         text-overflow: ellipsis;
         font-size: 15px;

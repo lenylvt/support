@@ -20,7 +20,7 @@ const collections = [
 		slug: 'customization',
 		icon: Brush,
 		name: 'Personnalisation',
-		articlesId: []
+		articlesId: [313101, 313102, 313104, 313103, 313105]
 	},
 	{
 		id: 3433,
