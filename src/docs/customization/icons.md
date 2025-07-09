@@ -1,5 +1,5 @@
 
-# 🎨 Personnaliser l'icône de Papillon
+# ⬜ Personnaliser l'icône de Papillon
 
 Vous souhaitez donner une touche personnelle à Papillon ? Changez l'icône de l'application en quelques étapes simples ! Découvrez notre vaste collection d'icônes, allant des designs dynamiques aux créations de la communauté.
 
@@ -7,7 +7,7 @@ Vous souhaitez donner une touche personnelle à Papillon ? Changez l'icône de l
 
 Suivez ces étapes pour personnaliser l'icône de Papillon :
 
-<img src="/articles/assets/313101/1.png" alt="Écran d'accueil de l'application Papillon avec l'icône de l'app mise en évidence" style="border-radius: 42px; max-width: 100%; height: auto;">
+<img src="/articles/assets/313101/1.png" alt="Écran d'accueil de l'application Papillon" style="border-radius: 42px; max-width: 100%; height: auto;">
 
 ## 1 - **Ouvrez** l'application Papillon
 

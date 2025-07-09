@@ -1,4 +1,4 @@
-# 🎨 Personnaliser les matières de Papillon
+# 🏫 Personnaliser les matières de Papillon
 
 Envie d’adapter Papillon à vos besoins ? Personnalisez les matières affichées dans l’application en quelques étapes simples !
 
@@ -6,7 +6,7 @@ Envie d’adapter Papillon à vos besoins ? Personnalisez les matières affich
 
 Suivez ces étapes pour personnaliser les matières affichées dans Papillon :
 
-<img src="/articles/assets/313102/1.png" alt="Écran d'accueil de l'application Papillon avec l'icône de l'app mise en évidence" style="border-radius: 42px; max-width: 100%; height: auto;">
+<img src="/articles/assets/313102/1.png" alt="Écran d'accueil de l'application Papillon" style="border-radius: 42px; max-width: 100%; height: auto;">
 
 ## 1 - **Ouvrez** l'application Papillon
 

@@ -6,7 +6,7 @@ Envie d’adapter Papillon à vos goûts ? Modifiez le thème de couleur de l�
 
 Suivez ces étapes pour personnaliser le thème de Papillon :
 
-<img src="/articles/assets/313103/1.png" alt="Écran d'accueil de l'application Papillon avec l'icône de l'app mise en évidence" style="border-radius: 42px; max-width: 100%; height: auto;">
+<img src="/articles/assets/313103/1.png" alt="Écran d'accueil de l'application Papillon" style="border-radius: 42px; max-width: 100%; height: auto;">
 
 ## 1 - **Ouvrez** l'application Papillon
 
