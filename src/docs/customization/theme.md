@@ -40,4 +40,12 @@ Sélectionnez **Thème de couleur** pour accéder aux couleurs disponible.
 
 ## 6 - Choisissez le Thème qui vous plaît
 
-Sélectionnez la couleur qui correspond le mieux à votre style personnel. La couleur sera appliquée immédiatement à votre application.
+Sélectionnez la couleur qui correspond le mieux à votre style personnel parmit :
+- 🟢 Le vert 
+- 🔵 Le bleu
+- 🟣 Le violet
+- 🌹 Le rose
+- 🔴 Le rouge
+- 🟠 Le orange 
+
+La couleur sera appliquée immédiatement à votre application.

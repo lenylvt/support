@@ -3,8 +3,6 @@
 
 Vous souhaitez donner une touche personnelle à Papillon ? Changez l'icône de l'application en quelques étapes simples ! Découvrez notre vaste collection d'icônes, allant des designs dynamiques aux créations de la communauté.
 
----
-
 ## Comment procéder
 
 Suivez ces étapes pour personnaliser l'icône de Papillon :
@@ -44,8 +42,6 @@ Sélectionnez **Icône de l'application** pour accéder à la galerie d'icônes 
 ## 6 - Choisissez l'icône qui vous plaît dans la galerie proposée
 
 Parcourez la galerie et sélectionnez l'icône qui correspond le mieux à votre style personnel. L'icône sera appliquée immédiatement à votre application.
-
-Une large sélection d'icônes s'offre à vous pour personnaliser votre expérience.
 
 ---
 ‎ 
